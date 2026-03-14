@@ -43,7 +43,10 @@ body {
     width: 90%;
     margin: 20px auto;
     background: white;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 10px;
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
     color: #333;
@@ -81,8 +84,8 @@ body {
     display: block;
 }
 .content-table{
-width:100%;
-border-collapse:collapse;
+    width:100%;
+    border-collapse:collapse;
 }
 .logo
 {
@@ -98,4 +101,20 @@ border-collapse:collapse;
       text-align:center; 
       padding:10px; 
       margin-top:20px;
+}
+.center-form {
+    text-align: center;
+    width:75%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .center-form input[type="text"],
+.center-form input[type="email"],
+.center-form input[type="tel"],
+.center-form textarea {
+    width: 100%;      
+    max-width: 500px;  
+    box-sizing: border-box; 
+    padding: 10px;    
+    margin-bottom: 10px;
 }
