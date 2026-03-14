@@ -4,13 +4,11 @@ body {
     background-color: #f5f5f5;
 }
 
-
 .main-header {
     width: 100%;
     background-color: blueviolet;
     color: white;
 }
-
 
 .nav-table {
     width: 100%;
@@ -83,38 +81,60 @@ body {
     height: auto;
     display: block;
 }
-.content-table{
-    width:100%;
-    border-collapse:collapse;
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
 }
-.logo
-{
+
+.logo {
     height: 200px;
     width: auto;
-    display: block; 
+    display: block;
     margin: 0 auto;
 }
-.footer
-{
+
+.footer {
     background-color: blueviolet;
-     color: white;
-      text-align:center; 
-      padding:10px; 
-      margin-top:20px;
-}
-.center-form {
+    color: white;
     text-align: center;
-    width:75%;
-    margin: 0 auto;
     padding: 10px;
-  }
-  .center-form input[type="text"],
-.center-form input[type="email"],
-.center-form input[type="tel"],
+    margin-top: 20px;
+}
+
+.center-form {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.center-form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px 0;
+}
+
+.center-form input,
 .center-form textarea {
-    width: 100%;      
-    max-width: 500px;  
-    box-sizing: border-box; 
-    padding: 10px;    
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+    padding: 10px;
     margin-bottom: 10px;
+}
+
+.center-form input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.center-form input[type="submit"]:hover {
+    background-color: #4b0082;
 }
