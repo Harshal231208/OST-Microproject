@@ -1,55 +1,75 @@
+/* Body */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
 }
 
+/* Header */
 .main-header {
     width: 100%;
-    background-color: blueviolet;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
     color: white;
 }
 
+/* Navigation */
 .nav-table {
     width: 100%;
     border-collapse: collapse;
-    background-color: blueviolet;
+    background-color: #1f2937;
 }
 
 .nav-table td {
-    padding: 12px;
+    padding: 14px;
     text-align: center;
-    border: 1px solid white;
-    transition: background 0.3s;
+    border: none;
+    transition: all 0.3s ease;
 }
 
 .nav-table a {
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    color: #e5e7eb;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
 }
 
+/* Hover Effect */
 .nav-table td:hover {
-    background-color: #4b0082;
+    background-color: #2563eb;
 }
 
+.nav-table td:hover a {
+    color: white;
+}
+
+/* Active Link */
 .nav-table .active {
-    color: black !important;
+    background-color: #2563eb;
 }
 
+.nav-table .active a {
+    color: white !important;
+}
+
+/* Content Area */
 .content-area {
     width: 90%;
-    margin: 20px auto;
+    margin: 30px auto;
     background: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 1px;
-    padding-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
+<<<<<<< HEAD
+    color: #333;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+=======
     color:#FFB6C1;
+>>>>>>> 2fadf3b836af566ccb1c6286322497cc52a0a980
 }
 
+/* Tables */
 .table-left {
     width: 70%;
     vertical-align: top;
@@ -63,17 +83,13 @@ body {
     padding-top: 10px;
 }
 
+/* Sidebar Images */
 .sidebar-img {
-    width: 80%;
+    width: 85%;
     margin: 0 auto 15px auto;
-    border: 1px solid #ccc;
-    background: white;
-    border-collapse: collapse;
-    table-layout: fixed;
-}
-
-.sidebar-img td {
-    padding: 3px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
 }
 
 .sidebar-img img {
@@ -82,59 +98,74 @@ body {
     display: block;
 }
 
-.content-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
+/* Logo */
 .logo {
     height: 200px;
-    width: auto;
     display: block;
     margin: 0 auto;
 }
 
+/* Footer */
 .footer {
-    background-color: blueviolet;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
     color: white;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 12px;
+    margin-top: 30px;
 }
 
+/* Form */
 .center-form {
     width: 90%;
     max-width: 700px;
     margin: 0 auto;
     padding: 20px;
-    
 }
 
+/* Labels */
 .center-form label {
     display: block;
-    text-align: left;
-    margin: 10px 0 5px 0;
+    margin: 10px 0 5px;
+    font-weight: 500;
 }
 
+/* Inputs */
 .center-form input,
 .center-form textarea {
     width: 100%;
-    max-width: 700px;
-    box-sizing: border-box;
     padding: 10px;
-    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+    transition: 0.3s;
 }
 
+/* Input Focus Effect */
+.center-form input:focus,
+.center-form textarea:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(37,117,252,0.4);
+}
+
+/* Submit Button */
 .center-form input[type="submit"] {
-    background-color: blueviolet;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 12px;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
 }
 
+/* Button Hover */
 .center-form input[type="submit"]:hover {
+<<<<<<< HEAD
+    background: linear-gradient(90deg, #2575fc, #1d4ed8);
+}
+=======
     background-color: #4b0082;
 }
+>>>>>>> 2fadf3b836af566ccb1c6286322497cc52a0a980
